@@ -214,7 +214,7 @@ PlaceId:CreateToggle(
                                 notifLib:Notify("You missed", {Color = Color3.new(255, 255, 255)})
                             end
                         else
-                            notifLib:Notify("You should equip pistol", {Color = Color3.new(255, 0, 0)})
+                            print("pistol")
                         end
                     end
                 end
