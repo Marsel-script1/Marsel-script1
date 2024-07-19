@@ -1070,14 +1070,9 @@ universalColumn1:CreateToggle(
         end
     }
 )
-local gameScriptUrl =
-    string.format(
-    "https://github.com/TheEmptynessProject/EmptynessProject/raw/main/emptynessHub/games/%d.lua",
-    game.PlaceId
-)
 
 pcall(
     function()
-        loadstring(game:HttpGet(gameScriptUrl))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Marsel-script1/Marsel-script1/main/12355337193.lua"))()
     end
 )
